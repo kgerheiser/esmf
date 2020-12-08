@@ -1014,6 +1014,7 @@ void xgrid_rot_2D_3D_sph(int num_p, double *p, bool *left_turn, bool *right_turn
   if (!(*right_turn) && !(*left_turn)) *left_turn=true;
 
 #undef CROSS_PRODUCT3D
+#undef DOT_PRODUCT3D
 #undef TOL
 
 }
